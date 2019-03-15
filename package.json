@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/zxgjwy0216/lululolo/issues"
   },
-  "homepage": "https://github.com/zxgjwy0216/lululolo#readme"
+  "homepage": "https://github.com/zxgjwy0216/lululolo#readme",
+  "dependencies": {
+    "vue": "^2.6.9"
+  }
 }
