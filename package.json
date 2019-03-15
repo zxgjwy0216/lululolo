@@ -22,5 +22,8 @@
   "homepage": "https://github.com/zxgjwy0216/lululolo#readme",
   "dependencies": {
     "vue": "^2.6.9"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.2"
   }
 }
