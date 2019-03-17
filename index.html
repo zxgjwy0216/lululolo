@@ -37,18 +37,17 @@
 </head>
 <body>
 <div id="app">
-    <g-button >
+    <g-button :loading="loading1" @click="loading1 = !loading1">
         按钮
     </g-button>
-    <g-button icon = 'thumbs-up'>
+    <g-button icon = 'thumbs-up' :loading="loading2" @click="loading2 = !loading2">
         按钮
     </g-button>
-    <g-button icon = 'thumbs-up' icon-position= 'right'>
+    <g-button icon = 'thumbs-up' icon-position= 'right' :loading="loading3" @click="loading3 =! loading3" >
         按钮
     </g-button>
-    <g-icon name="thumbs-up"></g-icon>
 </div>
 <script src="./app.js"></script>
-<script src="//at.alicdn.com/t/font_1091595_wfyi1eaj73e.js"></script>
+<script src="//at.alicdn.com/t/font_1091595_59jnl8iujpq.js"></script>
 </body>
 </html>
