@@ -22,6 +22,7 @@
   "homepage": "https://github.com/zxgjwy0216/lululolo#readme",
   "devDependencies": {
     "@vue/component-compiler-utils": "^2.6.0",
+    "chai": "^4.2.0",
     "http-server": "^0.11.1",
     "sass": "^1.17.3",
     "vue": "^2.5.16",
@@ -31,7 +32,6 @@
     "vue-hot-reload-api": "^2.3.3"
   },
   "alias": {
-    "vue" : "./node_modules/vue/dist/vue.common.js"
+    "vue": "./node_modules/vue/dist/vue.common.js"
   }
-
 }
