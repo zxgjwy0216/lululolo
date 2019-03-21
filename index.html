@@ -41,12 +41,13 @@
 <body>
 <div id="app">
     <div class="box">
-        <g-input value="张三"></g-input>
+        <g-input  v-model="message"></g-input>
+        <p style="display: inline">{{message}}</p>
         <g-input value="老郑" disabled></g-input>
         <g-input value="老王" readonly></g-input>
     </div>
     <div class="box">
-        <g-input value="B" error="姓名不得少于两个字"></g-input>
+        <g-input value="老谢" v-on:change="inputChange" v-on:input="inputIn"></g-input>
     </div>
     <div class="box">
         <g-button :loading="loading1" @click="loading1 = !loading1">
