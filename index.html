@@ -37,9 +37,26 @@
             margin:20px;
         }
     </style>
+    <style>
+        .demoBox{
+            min-height: 50px;
+            background:grey;
+            border:1px solid red;
+        }
+    </style>
 </head>
 <body>
 <div id="app">
+    <div class="demoBox">
+        <g-row  gutter="8">
+            <g-col span="4" ></g-col>
+            <g-col span="12"></g-col>
+            <g-col span="4"></g-col>
+            <g-col span="4"></g-col>
+        </g-row>
+    </div>
+
+    <hr>
     <div class="box">
         <g-input  v-model="message"></g-input>
         <p style="display: inline">{{message}}</p>
