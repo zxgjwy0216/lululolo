@@ -1,11 +1,11 @@
 <template>
     <div>
-
+        <p><strong>预览：</strong></p>
         <g-button>默认按钮</g-button>
         <g-button :loading=true>默认按钮</g-button>
         <g-button icon="set">默认按钮</g-button>
         <g-button disabled>默认按钮</g-button>
-
+        <p><strong>代码:</strong></p>
         <pre><code>{{content}}</code></pre>
     </div>
 </template>
@@ -22,7 +22,7 @@
                     <g-button :loading=true>默认按钮</g-button>
                     <g-button icon="set">默认按钮</g-button>
                     <g-button disabled>默认按钮</g-button>
-                    `.replace(/t+| +/g,'').trim()
+                    `
             }
         }
     }
