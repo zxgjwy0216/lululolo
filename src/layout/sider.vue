@@ -8,7 +8,7 @@
 </template>
 <script>
     export default {
-        name: 'LuluSlider',
+        name: 'LuluSider',
         data () {
             return {
                 visible: true

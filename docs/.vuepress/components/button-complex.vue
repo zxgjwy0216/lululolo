@@ -24,14 +24,14 @@
         data(){
             return {
                 content:`
-                        <g-button icon="set" :loading=true>默认按钮</g-button>
-                        <g-button icon="set" icon-position="right">默认按钮</g-button>
-                        <g-button icon="set" icon-position="left">默认按钮</g-button>
-                        <g-button-group>
-                            <g-button icon="left"></g-button>
-                            <g-button icon="thumbs-up"></g-button>
-                            <g-button icon="right"></g-button>
-                        </g-button-group>
+<g-button icon="set" :loading=true>默认按钮</g-button>
+<g-button icon="set" icon-position="right">默认按钮</g-button>
+<g-button icon="set" icon-position="left">默认按钮</g-button>
+<g-button-group>
+    <g-button icon="left"></g-button>
+    <g-button icon="thumbs-up"></g-button>
+    <g-button icon="right"></g-button>
+</g-button-group>
                     `
             }
         }

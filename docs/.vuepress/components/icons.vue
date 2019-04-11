@@ -24,14 +24,14 @@
         data(){
             return {
                 content:`
-                        <g-icon name="set"></g-icon>
-                        <g-icon name="right"></g-icon>
-                        <g-icon name="left"></g-icon>
-                        <g-icon name="error"></g-icon>
-                        <g-icon name="loading"></g-icon>
-                        <g-icon name="download"></g-icon>
-                        <g-icon name="down"></g-icon>
-                        <g-icon name="thumbs-up"></g-icon>
+<g-icon name="set"></g-icon>
+<g-icon name="right"></g-icon>
+<g-icon name="left"></g-icon>
+<g-icon name="error"></g-icon>
+<g-icon name="loading"></g-icon>
+<g-icon name="download"></g-icon>
+<g-icon name="down"></g-icon>
+<g-icon name="thumbs-up"></g-icon>
                     `
             }
         }

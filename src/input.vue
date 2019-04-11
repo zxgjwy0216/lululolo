@@ -50,13 +50,13 @@
     $border-color:#999;  $border-color-hover:#666;
     $border-radius:4px;
     $font-size:12px;
-    $box-shadow-color:rgba(0,0,0,0.5);
+    $box-shadog-color:rgba(0,0,0,0.5);
     .wrapper{display: inline-flex;font-size: $font-size;
         align-items: center;
         >:not(:last-child){margin-right:0.5em;}
         >input{height: $height;border:1px solid $border-color;border-radius:$border-radius;padding:0 8px;font-size: inherit;
             &:hover{border-color:$border-color-hover;}
-            &:focus{box-shadow: 0 1px 3px $box-shadow-color inset;outline:none;}
+            &:focus{box-shadow: 0 1px 3px $box-shadog-color inset;outline:none;}
             &[disabled],&[readonly]{border-color:#aaa;color:#aaa;cursor:not-allowed;}
         }
         &.error{ >input{border-color:orangered;

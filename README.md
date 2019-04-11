@@ -16,21 +16,6 @@ author:lulu
 ```
 IE8以及以上浏览器都支持此样式
 
-你还需要设置默认颜色等变量(后续会引入scss变量)
-```
-    :root {
-        --button-height: 32px;
-        --font-size: 14px;
-        --button-bg: white;
-        --button-active-bg: #eee;
-        --border-radius: 4px;
-        --color: #333;
-        --border-color: #999;
-        --border-color-hover: #666;
-    }
-```
-IE 15 以上才支持此样式
-
 2.安装lululolo
 ```
     npm install --save lululolo
@@ -38,12 +23,29 @@ IE 15 以上才支持此样式
 3.引入lululolo
 ```
     import  {Button,Icon} from 'lululolo'
-    import 'lululolo/dist/index.css'
-    
     export default {
       components: {
-        'g-button':Button,
-        'g-icon':Icon
+                import  Button from './button';
+                import  Icon from './icon';
+                import  Input from './input';
+                import  ButtonGroup from './button-group';
+                import  Col from './col';
+                import  Row from  './row';
+                import  Plugin from './plugin';
+                import  Tabs from './tab';
+                import  TabsHead from  './tabs-head';
+                import TabsBody from './tabs-body';
+                import  TabsPane from './tabs-pane';
+                import  TabsItem from './tabs-item';
+                import  Toast from "./toast";
+                import  Popover from './popover';
+                import  Collapse from './collapse'
+                import  CollapseItem from './collapse-item'
+                import  Footer from  './layout/footer';
+                import  Header from  './layout/header';
+                import  Content from  './layout/content';
+                import  Layout from  './layout/layout'
+                import  Slider from  './layout/sider';
       }
     }
 ```

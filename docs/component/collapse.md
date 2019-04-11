@@ -1,23 +1,14 @@
 ---
 title: Collapse-折叠层
 ---
-输入框
+折叠层
 ====
 
-----
-简单使用
-----
-<ClientOnly>
-  <collapse-demo></collapse-demo>
-</ClientOnly>
-使用value规定Input框的默认值<br/>
-使用disabled使Input不可用<br/>
-使用readonly让Input保持只可读取状态<br/>
 
-----
-实现双向绑定
-----
 <ClientOnly>
-  <input-demosomplex></input-demosomplex>
+  <collpase-demo></collpase-demo>
 </ClientOnly>
-实现原理:使用Vue的v-model实现双向绑定
+
+在Collapse标签中用:selected.sync规定默认打开的层面，可以不设置，注意selected.sync接受的是数组形式，
+并且数组的每一位数需要是字符串形式。
+在g-collapse-item中的title设置折叠的标题

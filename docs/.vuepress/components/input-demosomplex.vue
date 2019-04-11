@@ -21,15 +21,16 @@
         data(){
             return {
                 value:'1',
-                content:`
-                data:{
-                    value: '1'
-                }
-                <g-input v-model="value"></g-input>
-                <div>
-                    value : {{value}}
-                </div>
-               `
+                content:
+                    `
+data:{
+    value: '1'
+}
+<g-input v-model="value"></g-input>
+<div>
+    value : {{value}}
+</div>
+      `
             }
         }
     }

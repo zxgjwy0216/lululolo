@@ -12,7 +12,7 @@
         $border-color: #999;
         $border-color-light: lighten($border-color, 30%);
         $border-radius: 4px;
-        $box-shadow-color: rgba(0, 0, 0, 0.5);
+        $box-shadog-color: rgba(0, 0, 0, 0.5);
         $button-active-bg: #eee;
         $button-bg: white;
         $button-height: 32px;
